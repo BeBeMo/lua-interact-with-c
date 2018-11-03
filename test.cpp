@@ -20,10 +20,10 @@ int main(int argc,char *argv[])
 	
 	//2. load lua file
 	int bRet = luaL_loadfile(L,"test.lua");
-	cout << bRet<<endl;
 	if(bRet)
 	{
-		cout <<"load file error"<<endl;
+		string strLoadFileErrMsg = lua_tostring(L,-1);
+		cout <<"load file error"<<strLoadFileErrMsg<<endl;
 		return 0;
 	}
 	
