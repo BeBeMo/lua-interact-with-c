@@ -1,6 +1,7 @@
 # lua and c++
 ### part1: c++ interact with lua
-&ensp;&ensp;Lua is usually used as config file, like .ini , .xml
+&ensp;&ensp;Lua is usually used as config file, like .ini , .xml  
+
 In this project, we use cpp load the variable, table, function in the lua script.
 ###### compile command:
 	cd src/c++-call-lua
