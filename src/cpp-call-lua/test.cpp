@@ -5,9 +5,9 @@ using namespace std;
 
 extern "C"
 {
-	#include "slua/include/lua.h"
-	#include "slua/include/lauxlib.h"
-	#include "slua/include/lualib.h"
+	#include "../../slua/include/lua.h"
+	#include "../../slua/include/lauxlib.h"
+	#include "../../slua/include/lualib.h"
 }
 int main(int argc,char *argv[])
 {
